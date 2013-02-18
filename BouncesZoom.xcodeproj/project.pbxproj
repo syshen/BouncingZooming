@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80AD16B116D1D091007EEC04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD16B016D1D091007EEC04 /* UIKit.framework */; };
+		80AD16B316D1D091007EEC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD16B216D1D091007EEC04 /* Foundation.framework */; };
+		80AD16B516D1D091007EEC04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD16B416D1D091007EEC04 /* CoreGraphics.framework */; };
+		80AD16BB16D1D091007EEC04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80AD16B916D1D091007EEC04 /* InfoPlist.strings */; };
+		80AD16BD16D1D091007EEC04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD16BC16D1D091007EEC04 /* main.m */; };
+		80AD16C116D1D091007EEC04 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD16C016D1D091007EEC04 /* SSAppDelegate.m */; };
+		80AD16C316D1D091007EEC04 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AD16C216D1D091007EEC04 /* Default.png */; };
+		80AD16C516D1D091007EEC04 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AD16C416D1D091007EEC04 /* Default@2x.png */; };
+		80AD16C716D1D091007EEC04 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AD16C616D1D091007EEC04 /* Default-568h@2x.png */; };
+		80AD16CA16D1D091007EEC04 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD16C916D1D091007EEC04 /* SSViewController.m */; };
+		80AD16CD16D1D091007EEC04 /* SSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AD16CB16D1D091007EEC04 /* SSViewController.xib */; };
+		80AD16D416D1D10B007EEC04 /* livingRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80AD16D316D1D10B007EEC04 /* livingRoom.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80AD16AD16D1D091007EEC04 /* BouncesZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncesZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AD16B016D1D091007EEC04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80AD16B216D1D091007EEC04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80AD16B416D1D091007EEC04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80AD16B816D1D091007EEC04 /* BouncesZoom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BouncesZoom-Info.plist"; sourceTree = "<group>"; };
+		80AD16BA16D1D091007EEC04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80AD16BC16D1D091007EEC04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80AD16BE16D1D091007EEC04 /* BouncesZoom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BouncesZoom-Prefix.pch"; sourceTree = "<group>"; };
+		80AD16BF16D1D091007EEC04 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		80AD16C016D1D091007EEC04 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		80AD16C216D1D091007EEC04 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80AD16C416D1D091007EEC04 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80AD16C616D1D091007EEC04 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80AD16C816D1D091007EEC04 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		80AD16C916D1D091007EEC04 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		80AD16CC16D1D091007EEC04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSViewController.xib; sourceTree = "<group>"; };
+		80AD16D316D1D10B007EEC04 /* livingRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = livingRoom.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AD16AA16D1D091007EEC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AD16B116D1D091007EEC04 /* UIKit.framework in Frameworks */,
+				80AD16B316D1D091007EEC04 /* Foundation.framework in Frameworks */,
+				80AD16B516D1D091007EEC04 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80AD16A416D1D091007EEC04 = {
+			isa = PBXGroup;
+			children = (
+				80AD16B616D1D091007EEC04 /* BouncesZoom */,
+				80AD16AF16D1D091007EEC04 /* Frameworks */,
+				80AD16AE16D1D091007EEC04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80AD16AE16D1D091007EEC04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AD16AD16D1D091007EEC04 /* BouncesZoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AD16AF16D1D091007EEC04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80AD16B016D1D091007EEC04 /* UIKit.framework */,
+				80AD16B216D1D091007EEC04 /* Foundation.framework */,
+				80AD16B416D1D091007EEC04 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80AD16B616D1D091007EEC04 /* BouncesZoom */ = {
+			isa = PBXGroup;
+			children = (
+				80AD16D316D1D10B007EEC04 /* livingRoom.jpg */,
+				80AD16BF16D1D091007EEC04 /* SSAppDelegate.h */,
+				80AD16C016D1D091007EEC04 /* SSAppDelegate.m */,
+				80AD16C816D1D091007EEC04 /* SSViewController.h */,
+				80AD16C916D1D091007EEC04 /* SSViewController.m */,
+				80AD16CB16D1D091007EEC04 /* SSViewController.xib */,
+				80AD16B716D1D091007EEC04 /* Supporting Files */,
+			);
+			path = BouncesZoom;
+			sourceTree = "<group>";
+		};
+		80AD16B716D1D091007EEC04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AD16B816D1D091007EEC04 /* BouncesZoom-Info.plist */,
+				80AD16B916D1D091007EEC04 /* InfoPlist.strings */,
+				80AD16BC16D1D091007EEC04 /* main.m */,
+				80AD16BE16D1D091007EEC04 /* BouncesZoom-Prefix.pch */,
+				80AD16C216D1D091007EEC04 /* Default.png */,
+				80AD16C416D1D091007EEC04 /* Default@2x.png */,
+				80AD16C616D1D091007EEC04 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80AD16AC16D1D091007EEC04 /* BouncesZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AD16D016D1D091007EEC04 /* Build configuration list for PBXNativeTarget "BouncesZoom" */;
+			buildPhases = (
+				80AD16A916D1D091007EEC04 /* Sources */,
+				80AD16AA16D1D091007EEC04 /* Frameworks */,
+				80AD16AB16D1D091007EEC04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BouncesZoom;
+			productName = BouncesZoom;
+			productReference = 80AD16AD16D1D091007EEC04 /* BouncesZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AD16A516D1D091007EEC04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = syshen;
+			};
+			buildConfigurationList = 80AD16A816D1D091007EEC04 /* Build configuration list for PBXProject "BouncesZoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80AD16A416D1D091007EEC04;
+			productRefGroup = 80AD16AE16D1D091007EEC04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AD16AC16D1D091007EEC04 /* BouncesZoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AD16AB16D1D091007EEC04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AD16BB16D1D091007EEC04 /* InfoPlist.strings in Resources */,
+				80AD16C316D1D091007EEC04 /* Default.png in Resources */,
+				80AD16C516D1D091007EEC04 /* Default@2x.png in Resources */,
+				80AD16C716D1D091007EEC04 /* Default-568h@2x.png in Resources */,
+				80AD16CD16D1D091007EEC04 /* SSViewController.xib in Resources */,
+				80AD16D416D1D10B007EEC04 /* livingRoom.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AD16A916D1D091007EEC04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AD16BD16D1D091007EEC04 /* main.m in Sources */,
+				80AD16C116D1D091007EEC04 /* SSAppDelegate.m in Sources */,
+				80AD16CA16D1D091007EEC04 /* SSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80AD16B916D1D091007EEC04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AD16BA16D1D091007EEC04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80AD16CB16D1D091007EEC04 /* SSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AD16CC16D1D091007EEC04 /* en */,
+			);
+			name = SSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AD16CE16D1D091007EEC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80AD16CF16D1D091007EEC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AD16D116D1D091007EEC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncesZoom/BouncesZoom-Prefix.pch";
+				INFOPLIST_FILE = "BouncesZoom/BouncesZoom-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80AD16D216D1D091007EEC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncesZoom/BouncesZoom-Prefix.pch";
+				INFOPLIST_FILE = "BouncesZoom/BouncesZoom-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AD16A816D1D091007EEC04 /* Build configuration list for PBXProject "BouncesZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AD16CE16D1D091007EEC04 /* Debug */,
+				80AD16CF16D1D091007EEC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AD16D016D1D091007EEC04 /* Build configuration list for PBXNativeTarget "BouncesZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AD16D116D1D091007EEC04 /* Debug */,
+				80AD16D216D1D091007EEC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AD16A516D1D091007EEC04 /* Project object */;
+}
